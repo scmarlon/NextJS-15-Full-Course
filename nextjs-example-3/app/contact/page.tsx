@@ -2,7 +2,6 @@
 const Contact = async () => {
   const response = await fetch('https://jsonplaceholder.typicode.com/posts/1')
   const data = await response.json()
-  console.log(data)
   return (
     <div>
       <h1 className="text-3xl text-black bg-amber-200">Contact Page</h1>

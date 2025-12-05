@@ -3,11 +3,8 @@ export const Users = async () => {
     const response = await fetch('https://jsonplaceholder.typicode.com/users')
     const data = await response.json()
 
-    console.log("all users..", data
-
-    )
   return (
-    <div>
+    <div className="mt-7">
         {""}
         <h1>User List</h1>
         <ul>
