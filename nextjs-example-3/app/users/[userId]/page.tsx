@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 const UserPage = async (id: string) => {
   const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
-    console.log( "holaaa",response)
+
 
   if (!response.ok) {
     console.log('Failed to fetch user data');
